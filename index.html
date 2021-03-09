@@ -2,11 +2,21 @@
 <html lang="en-us">
 
 <head>
-
-
+    <link rel="stylesheet" href="web-challenge.css">
 </head>
 
 <body>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()"><p>&#9776; open</p></span>
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="C:\Users\nikoe\Desktop\UCI Data Bootcamp\Homework\11-Web\Instructions\Web-Design-Challenge\data_viz1.html"><p>Book Value</p></a>
+    <a href="C:\Users\nikoe\Desktop\UCI Data Bootcamp\Homework\11-Web\Instructions\Web-Design-Challenge\data_viz2.html"><p>Free Cash Flow & Net Income</p></a>
+    <a href="C:\Users\nikoe\Desktop\UCI Data Bootcamp\Homework\11-Web\Instructions\Web-Design-Challenge\data_viz3.html"><p>Return On Sales Ratio</p></a>
+    <a href="C:\Users\nikoe\Desktop\UCI Data Bootcamp\Homework\11-Web\Instructions\Web-Design-Challenge\data_viz4.html"><p>High & Low Difference v. Stock Volume</p></a>
+    <a href="C:\Users\nikoe\Desktop\UCI Data Bootcamp\Homework\11-Web\Instructions\Web-Design-Challenge\comparison.html"><p>Comparisons</p></a>
+    <a href="C:\Users\nikoe\Desktop\UCI Data Bootcamp\Homework\11-Web\Instructions\Web-Design-Challenge\data_source.html"><p>Data</p></a>
+</div>
+
 <div class='header'>
     <h1>Hacky Financial Analysis</h1>
     <p>I created a hacky financial analysis using a <a href="https://www.alphavantage.co/">financial information API</a>,
@@ -39,6 +49,17 @@
         </a>
     </div>
 </div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
 </body>
 
 
