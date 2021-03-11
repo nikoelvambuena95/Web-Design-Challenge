@@ -2,12 +2,16 @@ body {
     background-color: aquamarine;
 }
 
-.header {
+.headline {
     background-color: bisque;
 }
 
 .body {
     background-color: goldenrod;
+}
+
+.body_copy {
+  background-color: blueviolet;
 }
 
 h1 {
