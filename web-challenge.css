@@ -30,18 +30,22 @@ p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-    text-align:center;
+.sidebar {
+  background-color: blueviolet;
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  }
+
+  .grid-item {
+    background-color: crimson;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    height: 30%;
+    width: 30%;
+  }
+
+  img {
+
   }
   
   .sidenav a {
