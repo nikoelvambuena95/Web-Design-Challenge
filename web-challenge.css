@@ -27,56 +27,53 @@ p {
 }
 
 .navbar {
-  background-color: cadetblue;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  padding-right: 0px;
-  padding-left: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-right: 0px;
-  margin-left: 0px;
+  background-color: red;
+  margin-top: -10px;
+  margin-bottom: -10px;
+  padding-bottom: -10px;
 }
 
 .siteName {
   background-color: chartreuse;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  padding-right: 0px;
-  padding-left: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-right: 0px;
-  margin-left: 0px;
   border: 1px solid black;
 }
 
 ul {
   background-color: blanchedalmond;
-  width: fit-content;
   list-style-type: none;
   position: absolute;
   right: 0;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  padding-right: 0px;
-  padding-left: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-right: 0px;
-  margin-left: 0px;
   border: 1px solid black;
 }
 
 li {
-  display:inline;
+  display:inline-block;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.plotsButton {
+  display: inline-block;
+}
+
+.dropDownPlots {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.plotsButton:hover .dropDownPlots {display: block;}
+
+.plotsButton:hover p {color: red;}
+
 .sidebar {
   background-color: blueviolet;
+  right: 0;
   display: inline-grid;
   grid-template-columns: auto auto;
+  padding-top: 100px;
 }
 
 .grid-item {
