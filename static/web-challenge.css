@@ -1,11 +1,4 @@
-/* headline element for viz pages*/ 
-
-body {
-   background-color: plum ;
-}
-
 .body {
-    background-color: salmon;
     display: inline-block;
     margin-top: 46px;
     padding-left: 60px;
@@ -32,7 +25,6 @@ p {
 }
 
 .navbar {
-  background-color: springgreen ;
   display: inline-block;
   height: auto;
   width: 100%;
@@ -57,7 +49,7 @@ p {
 }
 
 .siteName a:hover {
-  color: cadetblue;
+  color: indianred;
   text-decoration: none;
 }
 
@@ -70,7 +62,6 @@ ul {
   /*background-color: whitesmoke;*/
   display: inline-block;
   list-style-type: none;
-  border: 1px solid black;
   position: absolute;
   right: 0;
   margin-right: 10px;
@@ -95,7 +86,7 @@ li a:visited {
 }
 
 li a:hover {
-  color: cadetblue;
+  color: indianred;
   text-decoration: none;
 }
 
@@ -160,12 +151,10 @@ li a:active {
 }
   
 .headline {
-  background-color: teal;
   width: 700px;
 }
 
 div.intraday {
-  background-color: bisque;
   height: 450px;
   width: 30%;
   overflow: auto;
