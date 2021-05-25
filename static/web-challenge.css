@@ -163,4 +163,11 @@ li a:active {
   background-color: teal;
   width: 700px;
 }
+
+div.intraday {
+  background-color: bisque;
+  height: 450px;
+  width: 30%;
+  overflow: auto;
+}
   
